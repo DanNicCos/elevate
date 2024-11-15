@@ -1,4 +1,4 @@
-echo "FROM node:18
+FROM node:18
 
 WORKDIR /app
 
@@ -12,4 +12,4 @@ RUN pnpm build
 
 EXPOSE 3000
 
-CMD [\"pnpm\", \"start\"]" > frontend.dockerfile
+CMD ["pnpm", "start"]
