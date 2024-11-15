@@ -1,0 +1,24 @@
+# Node modules (common across frontend and other JavaScript tools)
+node_modules/
+
+# Python virtual environment (for backend)
+venv/
+
+# macOS system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+tmp/
+*.tmp
+
+# Environment and configuration files
+.env
+.env.local
+
+# Docker-related files
+docker-compose.override.yml
+docker/logs/
+
+# Git-specific files and folders
+.gitignore
